@@ -133,7 +133,7 @@ streamlit run app.py
 
 ## Author
 
-[Your Name]
+Samir Ansari, Krishna Sah
 
 ## License
 
@@ -142,5 +142,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Kaggle for providing the dataset
-- [Your instructor/course name]
-- [Any other acknowledgments]
+- Dr. Ning Zhang
+- Computer Science Department, Fisk University
