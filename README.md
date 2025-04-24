@@ -49,19 +49,19 @@ fake_news_detection/
 
 Our best performing model achieves:
 
-- Accuracy: ~XX%
-- Precision: ~XX%
-- Recall: ~XX%
-- F1 Score: ~XX%
+- Accuracy: ~99.62%
+- Precision: ~99.32%
+- Recall: ~99.91%
+- F1 Score: ~99.61%
 
-![Model Comparison](results/feature_importance.png)
+![Model Comparison](results/model_comparison_df.png)
 
 ## Key Findings
 
-- [Your findings about linguistic patterns in fake vs. real news]
-- Key indicators of fake news include [...]
-- Real news articles tend to exhibit [...]
-- [Other interesting observations]
+- Random Forest was the most accurate but also the slowest to train.
+- Naive Bayes trained extremely fast but had slightly lower scores overall.
+- Linear SVM was nearly as strong as Random Forest and was much faster.
+- Hand-crafted features like punctuation ration and sentiment scores likely boosted performance by giving the models more context about writing style
 
 ## Usage
 
@@ -113,10 +113,11 @@ streamlit run app.py
 
 ## Future Improvements
 
+- Use of Deep Learning Models
 - Incorporate more advanced NLP techniques (word embeddings, transformers)
 - Add more features (sentiment analysis, readability metrics)
-- Implement ensemble methods for improved accuracy
-- Expand the dataset with more diverse sources
+- Multilingual News Detection
+- Live news Stream Integration
 - Deploy the model as a browser extension
 
 ## Requirements
